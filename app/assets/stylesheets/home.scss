@@ -1,0 +1,27 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "bootstrap";
+
+body {
+  height:100%;
+}
+.main_image {
+  position: fixed;
+  top: 0;
+  width:100%;
+  height:auto;
+  z-index: -20;
+}
+
+.navbar-light .navbar-toggler-icon { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+
+.welcome {
+  height: 1000%!important;
+  font-size: 50px;
+  font-weight: bolder;
+  position: absolute;
+  margin-top: 250px;
+
+}
